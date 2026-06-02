@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: evolution-api-lcd
+    env: docker
+    repo: https://github.com/EnzoAndrade2001/evolution-api
+    plan: free
+    port: 3333
